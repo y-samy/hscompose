@@ -1,4 +1,4 @@
-# XCompose For Windows (but really stupid)
+# Yet Another XCompose Alternative For Windows
 
 This combination of AutoHotKey scripts acts as a crude remake of XCompose for Windows.
 
@@ -23,5 +23,10 @@ How to run at startup:
 - Right-click the shortcut file then copy it.
 - Hit the `Windows` + `R` keys and type `shell:startup`. In that folder, right click and paste your shortcut. 
 
+## Credits
+[This reddit comment](https://www.reddit.com/r/AutoHotkey/comments/ysuawq/comment/j1y4gqu/?utm_source=reddit&utm_medium=web2x&context=3) has the source for the included library named "GetCaret", as well as links for the sources for the other libraries included. 
+
+\
 Tested with Windows 11.
-This project is in no way affiliated with AutoHotkey or with Microsoft or Windows.
+
+This project and I are not affiliated with any other organization, project, software or entity mentioned or pointed towards through any means in the writing or the code included.
