@@ -2,12 +2,19 @@
 
 This combination of AutoHotKey scripts acts as a crude remake of XCompose for Windows.
 
-How to use:
+How to run:
 > Requires [AutoHotKey v2.0](https://www.autohotkey.com/).
 
 - Download the latest version of this script from [Releases](https://github.com/y-samy/stupid-wincompose/).
 - Unzip the folder, copy the folder containing both `.ahk` files into your `Documents\AutoHotKey` folder.
 - Run `composekey.ahk`.
+
+How to use:
+- Press the [Menu Key](https://en.wikipedia.org/wiki/Menu_key) on your keyboard.
+- Type in your abbreviation or press [Esc] to stop.
+- Your abbreviation is immediately replaced with the text intended.
+
+To modify, edit each script and read the instructions inside them.
 
 How to run at startup:
 - Go to the location where you keep both files.
