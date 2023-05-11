@@ -6,7 +6,7 @@ How to run:
 > Requires [AutoHotKey v2.0](https://www.autohotkey.com/).
 
 - Download the latest version of this script from [Releases](https://github.com/y-samy/stupid-wincompose/).
-- Unzip the folder, copy the folder containing both `.ahk` files into your `Documents\AutoHotKey` folder.
+- Unzip the `.zip` file into a folder then copy that folder into your `Documents\AutoHotKey` folder.
 - Run `composekey.ahk`.
 
 How to use:
@@ -17,7 +17,7 @@ How to use:
 To modify, edit each script and read the instructions inside them.
 
 How to run at startup:
-- Go to the location where you keep both files.
+- Go to the script's folder.
 - Right-click `composekey.ahk`, click "More Options" if on Windows 11, then click "Create Shortcut".
 - Name this shortcut file whatever you want.
 - Right-click the shortcut file then copy it.
