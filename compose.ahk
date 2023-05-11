@@ -1,4 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
+#Include <GetCaret>
 ; This file can be edited even if the "composekey" script is running.
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -30,7 +31,7 @@ ToolTipMode:=A_Args[1] ; the parent script, "composekey", decides whether or not
 if ToolTipMode {
 	SetTimer WatchCaret, 100
 	WatchCaret(){
-    	if CaretGetPos(&x, &y) {
+    	if GetCaret(&x, &y) {
 			ToolTip "[Esc] Stop Listening For Macro", x, y - 20 ; lifted from documentation, keeps tooltip on caret
     	} else {
 			; if the user is no longer focused on a text input, stop listening
